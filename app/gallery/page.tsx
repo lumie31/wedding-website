@@ -5,7 +5,7 @@ export default function Gallery() {
   return (
     <div>
       <Header>
-        <p className='text-5xl text-center'>Gallery</p>
+        <h1 className='text-center'>Gallery</h1>
       </Header>
       <p className='text-black'>Gallery content goes here</p>
     </div>

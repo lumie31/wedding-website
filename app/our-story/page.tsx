@@ -5,7 +5,7 @@ export default function OurStory() {
   return (
     <div>
       <Header>
-        <p className='text-5xl text-center'>Our Story</p>
+        <h1 className='text-center'>Our Story</h1>
       </Header>
       <p className='text-black'>Our story content goes here</p>
     </div>

@@ -5,7 +5,7 @@ export default function GiftRegistry() {
   return (
     <div>
       <Header>
-        <p className='text-5xl text-center'>Gift Registry</p>
+        <h1 className='text-center'>Gift Registry</h1>
       </Header>
       <p className='text-black'>Gift registry content goes here</p>
     </div>

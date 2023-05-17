@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <div>
       <Header>
-        <p className='text-5xl text-center'>Fiyin and Tobi</p>
-        <p className='text-5xl text-center'>
+        <h1 className='text-center'>Fiyin and Tobi</h1>
+        <h1 className='text-center'>
           are getting&nbsp;
           <span className='text-white'>married!</span>
-        </p>
+        </h1>
       </Header>
       <section className='h-100 text-[#001944] p-4 flex flex-col items-center sm:flex-row sm:justify-between font-serif'>
         <Image
