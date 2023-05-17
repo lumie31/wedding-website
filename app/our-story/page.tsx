@@ -5,9 +5,9 @@ export default function OurStory() {
   return (
     <div>
       <Header>
-        <p className='text-3xl text-center'>Our Story</p>
+        <p className='text-5xl text-center'>Our Story</p>
       </Header>
-      Our story component goes here
+      <p className='text-black'>Our story content goes here</p>
     </div>
   );
 }

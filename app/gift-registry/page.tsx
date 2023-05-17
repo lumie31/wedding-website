@@ -5,9 +5,9 @@ export default function GiftRegistry() {
   return (
     <div>
       <Header>
-        <p className='text-3xl text-center'>Gift Registry</p>
+        <p className='text-5xl text-center'>Gift Registry</p>
       </Header>
-      Gift registry component goes here
+      <p className='text-black'>Gift registry content goes here</p>
     </div>
   );
 }

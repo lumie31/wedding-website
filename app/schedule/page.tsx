@@ -5,9 +5,9 @@ export default function Schedule() {
   return (
     <div>
       <Header>
-        <p className='text-3xl text-center'>Schedule</p>
+        <p className='text-5xl text-center'>Schedule</p>
       </Header>
-      Schedule content goes here
+      <p className='text-black'>Schedule content goes here</p>
     </div>
   );
 }

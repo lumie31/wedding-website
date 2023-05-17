@@ -5,9 +5,9 @@ export default function Gallery() {
   return (
     <div>
       <Header>
-        <p className='text-3xl text-center'>Gallery</p>
+        <p className='text-5xl text-center'>Gallery</p>
       </Header>
-      Gallery component goes here
+      <p className='text-black'>Gallery content goes here</p>
     </div>
   );
 }
