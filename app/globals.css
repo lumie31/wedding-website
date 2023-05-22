@@ -1,5 +1,6 @@
 @tailwind base;
-
+@tailwind components;
+@tailwind utilities;
 @layer base {
   h1 {
     @apply text-5xl;
@@ -9,9 +10,10 @@
     @apply text-4xl;
   }
 
+  p {
+    @apply text-sm;
+  }
 }
-@tailwind components;
-@tailwind utilities;
 
 :root {
   --foreground-rgb: 0, 0, 0;

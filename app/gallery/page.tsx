@@ -4,7 +4,7 @@ import React from 'react';
 export default function Gallery() {
   return (
     <div>
-      <Header>
+      <Header backgroundImg='bg-gallery'>
         <h1 className='text-center'>Gallery</h1>
       </Header>
       <p className='text-black'>Gallery content goes here</p>
