@@ -12,12 +12,11 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-      spacing: {
-        section: '500px',
+        home: "url('../public/images/wedding_ring_bg.png')",
+        schedule: "url('../public/images/schedule_bg.png')",
+        gallery: "url('../public/images/gallery_bg.png')",
+        gift: "url('../public/images/gift_bg.png')",
+        story: "url('../public/images/story_bg.png')",
       },
     },
   },
