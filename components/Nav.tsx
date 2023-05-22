@@ -13,7 +13,7 @@ export default function Nav({ children }: { children: React.ReactNode }) {
 
   return (
     <nav>
-      <div className='flex justify-between sm:hidden p-4 text-sm'>
+      <div className='flex justify-between sm:hidden p-4'>
         <Link href='/'>
           <svg
             width='40'

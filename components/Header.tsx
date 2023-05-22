@@ -1,9 +1,15 @@
 import Nav from './Nav';
 import NavItem from './NavItem';
 
-export default function Header({ children }: { children: React.ReactNode }) {
+export default function Header({
+  children,
+  backgroundImg,
+}: {
+  children: React.ReactNode;
+  backgroundImg: string;
+}) {
   return (
-    <header className='bg-[#001944D9]'>
+    <header className={`${backgroundImg} bg-center bg-no-repeat bg-cover`}>
       <Nav>
         <NavItem href='/'>Home</NavItem>
         <NavItem href='/our-story'>Our Story</NavItem>
