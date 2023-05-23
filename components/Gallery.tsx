@@ -61,13 +61,13 @@ export default function Gallery({
         <div className='flex flex-col items-center mt-10 sm:flex sm:flex-row sm:justify-center sm:my-5'>
           <Link
             href='/gallery'
-            className='font-sans border-2 border-[#0047A6] rounded-full px-4 py-3 text-[#0047A6] w-[150px] text-center'
+            className='font-sans border-2 border-[#0047A6] rounded-full px-4 py-3 text-[#0047A6] w-[150px] text-center hover:text-slate-300'
           >
             Go to Gallery
           </Link>
           <Link
             href='/gift-registry'
-            className='font-sans rounded-full px-4 py-3 my-3 bg-[#0047A6] text-white w-[150px] text-center sm:mx-5'
+            className='font-sans rounded-full px-4 py-3 my-3 bg-[#0047A6] text-white w-[150px] text-center sm:mx-5 hover:text-slate-300'
           >
             Gift Us
           </Link>
