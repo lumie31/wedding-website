@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/public/fonts/Raleway-Regular.ttf");
+}
+
 @layer base {
   h1 {
     @apply text-5xl;
