@@ -1,5 +1,8 @@
+'use client';
+
 import Header from '@/components/Header';
-import React from 'react';
+import GalleryComponent from '@/components/Gallery';
+import Footer from '@/components/Footer';
 
 export default function Gallery() {
   return (
@@ -7,7 +10,8 @@ export default function Gallery() {
       <Header backgroundImg='bg-gallery'>
         <h1 className='text-center'>Gallery</h1>
       </Header>
-      <p className='text-black'>Gallery content goes here</p>
+      <GalleryComponent withButtons={false} withHeader={false} />
+      <Footer />
     </div>
   );
 }
