@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); */
+
+/* @font-face {
   font-family: "Raleway";
   src: url("/public/fonts/Raleway-Regular.ttf");
-}
+} */
 
 @layer base {
   h1 {
