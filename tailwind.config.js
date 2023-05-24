@@ -6,11 +6,11 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    fontFamily: {
-      sans: ['Raleway', 'sans-serif'],
-      serif: ['Butler', 'serif'],
-    },
     extend: {
+      fontFamily: {
+        sans: ['Raleway', 'sans-serif'],
+        serif: ['Butler', 'serif'],
+      },
       backgroundImage: {
         home: "url('../public/images/wedding_ring_bg.png')",
         schedule: "url('../public/images/schedule_bg.png')",

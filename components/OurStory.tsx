@@ -25,7 +25,7 @@ export default function OurStory() {
           href='/our-story'
           className='font-sans self-start py-4 order-4 sm:order-3 hover:border-red-500 hover:rounded-full hover:px-2 hover:bg-white hover:text-[#001944]'
         >
-          Read full story here &gt;
+          Read full story here &rarr;
         </Link>
       </div>
       {/* <div className='order-2'>
