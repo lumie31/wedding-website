@@ -19,7 +19,7 @@ export default function Header({
           Gift Registry
         </NavItem>
       </Nav>
-      <div className='h-96 text-[#BEC7D7] flex flex-col justify-center items-center font-serif font-normal'>
+      <div className='h-[480px] text-[#BEC7D7] flex flex-col justify-center items-center font-serif font-normal text-3xl'>
         {children}
       </div>
     </header>
