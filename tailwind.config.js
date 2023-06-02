@@ -14,9 +14,9 @@ module.exports = {
       backgroundImage: {
         home: "url('../public/images/wedding_ring_bg.png')",
         schedule: "url('../public/images/schedule_bg.png')",
-        gallery: "url('../public/images/gallery_bg.png')",
+        gallery: "url('../public/images/galleryBG.png')",
         gift: "url('../public/images/gift_bg.png')",
-        story: "url('../public/images/story_bg.png')",
+        story: "url('../public/images/ourStory.png')",
       },
     },
   },

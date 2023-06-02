@@ -3,7 +3,11 @@
 import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import image from '@/public/images/gallery.png';
+import firstEncounter from '@/public/images/firstEncounter.png';
+import finallyMeeting from '@/public/images/finallyMeeting.png';
+import firstDate from '@/public/images/firstDate.png';
+import forever from '@/public/images/forever.png';
+import proposal from '@/public/images/proposal.png';
 
 export default function OurStory() {
   return (
@@ -25,16 +29,22 @@ export default function OurStory() {
             parts of Nigeria, and our first physical meeting didn&#39;t happen
             until five years later. But even without meeting in person, we felt
             a strong connection and stayed in touch through social media and
-            messaging apps. As the years went by, we watched each other grow and
-            develop into amazing individuals. Our friendship grew stronger, and
-            we felt a sense of comfort in each other&#39;s company. We shared
-            stories about our lives, our struggles, and our aspirations. We
-            realized that we had a lot in common and shared many of the same
-            values.
+            messaging apps. <br /> As the years went by, we watched each other
+            grow and develop into amazing individuals. Our friendship grew
+            stronger, and we felt a sense of comfort in each other&#39;s
+            company. We shared stories about our lives, our struggles, and our
+            aspirations. We realized that we had a lot in common and shared many
+            of the same values.
           </p>
         </div>
         <div className='sm:self-end order-3'>
-          <Image className='rounded-lg' src={image} alt='lovely couple' />
+          <Image
+            className=''
+            width={400}
+            height={400}
+            src={firstEncounter}
+            alt='image showing couple first encounter'
+          />
         </div>
       </div>
       <div className='mt-5 flex flex-col p-5 items-center sm:flex sm:flex-row sm:justify-around sm:mt-4'>
@@ -53,16 +63,24 @@ export default function OurStory() {
             After that first meeting, we continued to communicate regularly and
             became even closer friends. We supported each other, and we felt
             grateful to have each other in our lives.
-            <br /> During Fiyin&#39;s service year, we realized that our
-            friendship had evolved into something more. We both had developed
-            feelings for each other, and we took a leap of faith and confessed
-            our love for each other. That moment changed everything. We became a
-            couple, and it felt like the missing piece of our lives had finally
-            fallen into place.
+            <br />
+            <br />
+            During Fiyin&#39;s service year, we realized that our friendship had
+            evolved into something more. We both had developed feelings for each
+            other, and we took a leap of faith and confessed our love for each
+            other. That moment changed everything. We became a couple, and it
+            felt like the missing piece of our lives had finally fallen into
+            place.
           </p>
         </div>
         <div className='sm:self-start sm:order-1'>
-          <Image className='rounded-lg' src={image} alt='lovely couple' />
+          <Image
+            className=''
+            src={finallyMeeting}
+            width={400}
+            height={400}
+            alt='image showing couple finally meeting in person'
+          />
         </div>
       </div>
       <div className='mt-5 flex flex-col p-5 items-center sm:flex sm:flex-row sm:justify-around sm:mt-4'>
@@ -81,7 +99,13 @@ export default function OurStory() {
           </p>
         </div>
         <div className='sm:self-end order-3'>
-          <Image className='rounded-lg' src={image} alt='lovely couple' />
+          <Image
+            className=''
+            src={firstDate}
+            width={400}
+            height={400}
+            alt='image showing couple on their first date'
+          />
         </div>
       </div>
       <div className='mt-5 flex flex-col p-5 items-center sm:flex sm:flex-row sm:justify-around sm:mt-4'>
@@ -90,7 +114,9 @@ export default function OurStory() {
             <h2 className='text-[#001944] font-serif sm:inline'>
               We Know It&#39;s Forever
             </h2>
-            <p className='text-[#666666] font-light sm:inline'>Dec, 2018</p>
+            <p className='text-[#666666] font-light sm:inline'>
+              Feb. 2019 for Tobi · Jan. 2020 for Fiyin
+            </p>
           </div>
           <p className='text-justify text-ellipsis font-sans py-3 text-[#001944] font-thin leading-loose order-2 sm:text-left sm:self-start sm:ml-2'>
             In my heart I knew she was the One. I just knew it. Its a feeling
@@ -100,6 +126,7 @@ export default function OurStory() {
             brought us together, and for the journey that has led us to where we
             are today. We have grown from close friends to partners who share a
             deep love and respect for each other. <br />
+            <br />
             Our story is a testament to the power of friendship, love, and
             patience. It shows that sometimes the best things in life take time,
             but they are worth the wait. We are excited about what the future
@@ -107,7 +134,13 @@ export default function OurStory() {
           </p>
         </div>
         <div className='sm:self-start sm:order-1'>
-          <Image className='rounded-lg' src={image} alt='lovely couple' />
+          <Image
+            className=''
+            src={forever}
+            width={400}
+            height={400}
+            alt='image showing the couple together'
+          />
         </div>
       </div>
       <div className='mt-5 flex flex-col p-5 items-center sm:flex sm:flex-row sm:justify-around sm:mt-4'>
@@ -125,7 +158,13 @@ export default function OurStory() {
           </p>
         </div>
         <div className='sm:self-end order-3'>
-          <Image className='rounded-lg' src={image} alt='lovely couple' />
+          <Image
+            className=''
+            src={proposal}
+            width={400}
+            height={400}
+            alt='image showing couple wedding proposal'
+          />
         </div>
       </div>
       <Footer />
